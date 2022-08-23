@@ -12,12 +12,11 @@ const Header = () => {
                     <p
                         className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4"
                     >
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Ipsa libero labore natus atque, ducimus sed.
+                        You will find your favorite blogs here 
                     </p>
                 </div>
 
-                {/* <!-- card grid  --> */}
+          
               
             </div>
     );
