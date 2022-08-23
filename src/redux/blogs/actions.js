@@ -5,12 +5,12 @@ export const authorSelect=(author)=>{
         payload:author
     }
 }
-// export const titleSelect=(title)=>{
-//     return {
-//         type:TITLESELECT,
-//         payload:title
-//     }
-// }
+export const titleSelect=(title)=>{
+    return {
+        type:TITLESELECT,
+        payload:title
+    }
+}
 
 export const categorySelect=(category)=>{
     return {
