@@ -1,7 +1,7 @@
 
 const initialState=[
 {id:1,
-    title:"How to Learn React for Begginners",
+    title:"How to Learn React for Beginners",
     author:'D.Hardy',
     time:15,
     date:'12 June, 2022',
@@ -11,7 +11,7 @@ const initialState=[
 
 },
 {id:2,
-    title:"Why is it needed to Learn Data Structure and Algorithm",
+    title:"Why is it needed to Learn Data Structure and Algorithm?",
     author:'Maxwell',
     time:11,
     date:'15 March, 2022',
