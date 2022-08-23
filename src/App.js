@@ -12,7 +12,7 @@ import CardGrid from './components/CardGrid/CardGrid';
 function App() {
   return (
     <div>
-          {/* <!-- navigation --> */}
+       
           <Navbar/>
        
           <SearchBar/>
@@ -26,10 +26,11 @@ function App() {
         <CardGrid/>
         </section>
 
-        {/* <!-- footer --> */}
+       
         <Footer/>
        
     </div>
+    
     
   );
 }
