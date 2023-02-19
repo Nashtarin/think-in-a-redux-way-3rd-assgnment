@@ -7,6 +7,7 @@ import CardGrid from '../CardGrid/CardGrid';
 
 const SearchBar = () => {
     const [input,setInput]=useState('')
+    // const [search,setSearch]=useState('')
     const debounce=(fn,delay)=>{
         console.log(fn,delay)
         let timeoutId;
@@ -21,14 +22,15 @@ const SearchBar = () => {
           };
 
     }
-    function ebounce(e){
-        setInput(()=>e.target.value)
+    function ebounce(){
+        setSearch(input)
 
     }
    
     const handleInput=(e)=>{
         
             setInput(e.target.value)
+            debounce(ebounce,9000)
      
         
         
@@ -64,7 +66,7 @@ const SearchBar = () => {
         >
            
         <Header/>
-        <CardGrid input={input}/>
+        <CardGrid input={search}/>
         </section>
         </>
     );
